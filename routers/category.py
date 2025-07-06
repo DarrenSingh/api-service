@@ -1,7 +1,7 @@
 from fastapi import APIRouter
-from ..models.category import Category
+from models.category import Category
 from fastapi import HTTPException, status
-from ..database import supabase
+from database import supabase
 
 router = APIRouter()
 
